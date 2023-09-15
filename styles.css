@@ -1,0 +1,161 @@
+.principal {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra verticalmente */
+    justify-content: flex-start; /* Coloca el contenido en la parte superior */
+    min-height: 100vh; /* Asegura que el cuerpo ocupe al menos toda la altura de la pantalla */
+    background-color: #f0f0f0; /* Fondo de la página */
+}
+
+.container {
+    max-width: 800px; /* Define el ancho máximo del contenedor */
+    padding: 20px;
+    text-align: center; /* Alinea el texto al centro dentro del contenedor */
+    background-color: #fff; /* Fondo del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+}
+
+.menu {
+    background-color: #333;
+    color: #fff;
+    padding: 1px 0; /* Espaciado vertical del menú */
+}
+
+.menu ul {
+    list-style: none;
+    padding: 5;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contenido {
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #ccc;
+    display: none;
+}
+
+.contenido h1 {
+    font-size: 24px;
+}
+
+
+/* Estilos para el contenido principal */
+/* Estilos para el título */
+.titulo {
+    font-size: 36px;
+    color: #149c02; /* Cambia el color del texto según tus preferencias */
+    text-align: center; /* Centra el título horizontalmente */
+    margin-bottom: 20px; /* Agrega un margen inferior al título */
+}
+
+/* Estilos para los párrafos */
+.parrafo {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff; /* Cambia el color del texto según tus preferencias */
+    text-align: justify; /* Justifica el texto para que se vea más limpio */
+    margin-bottom: 20px; /* Agrega un margen inferior a los párrafos */
+}
+
+
+body {
+    background-image: url('./imagenes/fondo_principal.avif'); /* Ruta de la imagen de fondo */
+    background-size: cover; }
+
+/*Chat*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.chat-window {
+    width: 100vw; /* Ocupa toda la anchura de la ventana */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    max-width: 100%; /* Limita el ancho máximo a la pantalla */
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.chat-header h2 {
+    margin: 0;
+}
+
+.chat-messages {
+    padding: 10px;
+    height: 300px;
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start; /* Alinea los mensajes a la izquierda */
+}
+
+
+
+.message-content {
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.chat-input {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.chat-input textarea {
+    flex-grow: 1; /* Hace que el textarea ocupe todo el espacio restante */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.chat-input button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background-color: #555;
+}

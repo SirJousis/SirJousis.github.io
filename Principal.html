@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Interactivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="principal">
+    <div class="menu">
+        <ul>
+            <li><a href="#" onclick="cambiarContenido('Maquinas')">Maquinas</a></li>
+            <li><a href="#" onclick="cambiarContenido('opcion2')">Contacto</a></li>
+            <li><a href="#" onclick="cambiarContenido('opcion3')">Aportes</a></li>
+            <li><a href="#" onclick="cambiarContenido('opcion3')">Aprendizaje</a></li>
+            <li><a href="chat.html" onclick="cambiarContenido('opcion3')">Chat</a></li>
+        </ul>
+    </div>
+    <div class="contenido" id="contenidoInicial">
+        <h1>Contenido inicial</h1>
+        <p>Selecciona una opción del menú para ver el contenido correspondiente.</p>
+    </div>
+
+    <div class="contenido" id="opcion1" style="display: none;">
+        <h1>Maquinas</h1>
+        <p>Este es el contenido de la Opción 1.</p>
+    </div>
+
+    <div class="contenido" id="opcion2" style="display: none;">
+        <h1>Contactanos</h1>
+        <p>Este es el contenido de la Opción 2.</p>
+    </div>
+
+    <div class="contenido" id="opcion3" style="display: none;">
+        <h1>Aportes</h1>
+        <p>Este es el contenido de la Opción 3.</p>
+    </div>
+        
+    
+    
+        <h1 class="titulo">Bienvenido a WriteupsHTB</h1>
+        <p class="parrafo">Somos una comunidad dedicada a la ciberseguridad y la resolución de máquinas de Hack The Box (HTB). Aquí encontrarás una colección de writeups detallados de diferentes máquinas de HTB, junto con información sobre técnicas de ciberseguridad.</p>
+        <p class="parrafo">Nuestra misión es promover el aprendizaje y el intercambio de conocimientos en el campo de la ciberseguridad. Si eres un entusiasta de la ciberseguridad, un pentester o simplemente alguien interesado en aprender, ¡has llegado al lugar correcto!</p> <br><br>
+
+
+        
+
+
+
+    <p class="parrafo">"No hay parche que corrija la estupidez"</p>
+                                    <p class="parrafo">"Kevin Mitnick</p>
+    <script src="script.js"></script>
+</body>
+</html>

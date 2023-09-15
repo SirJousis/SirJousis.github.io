@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat en Línea</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/chat_Script.js"></script>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="Principal.html" onclick="cambiarContenido('principal')">Inicio</a></li>
+            <li><a href="#" onclick="cambiarContenido('Maquinas')">Maquinas</a></li>
+            <li><a href="#" onclick="cambiarContenido('opcion2')">Contacto</a></li>
+            <li><a href="#" onclick="cambiarContenido('opcion3')">Aportes</a></li>
+            <li><a href="#" onclick="cambiarContenido('opcion3')">Aprendizaje</a></li>
+            <li><a href="chat.html" onclick="cambiarContenido('opcion3')">Chat</a></li>
+        </ul>
+    </div>
+    <div class="chat-window">
+        <div class="chat-header">
+            <h2>Chat en Línea</h2>
+        </div>
+        <div class="chat-messages">
+            <!-- Mensajes del chat se insertarán aquí -->
+            <div class="message">
+                <div class="message-content">
+                    <p>¡Hola! ¿Cómo estás?</p>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-content">
+                    <p>¡Hola! Estoy bien, gracias.</p>
+                </div>
+            </div>
+            <!-- Más mensajes se agregarán aquí -->
+        </div>
+        <div class="chat-input">
+            <textarea placeholder="Escribe tu mensaje..."></textarea>
+            <button id="enviarMensaje">Enviar</button>
+        </div>
+    </div>
+</body>
+</html>
